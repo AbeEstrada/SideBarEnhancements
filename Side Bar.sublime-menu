@@ -32,18 +32,6 @@
 		"id": "side-bar-new-separator"
 	},
 	{
-		"caption": "Open With Finder",
-		"id": "side-bar-open-with-finder",
-		"command": "side_bar_open_with_finder",
-		"args": {
-			"paths": []
-		}
-	},
-	{
-		"caption": "-",
-		"id": "side-bar-edit-open-separator"
-	},
-	{
 		"caption": "Find & Replace…",
 		"id": "side-bar-find-selected",
 		"command": "side_bar_find_in_selected",
@@ -126,10 +114,6 @@
 		}
 	},
 	{
-		"caption": "-",
-		"id": "side-bar-clip-separator"
-	},
-	{
 		"caption": "Duplicate…",
 		"id": "side-bar-duplicate",
 		"command": "side_bar_duplicate",
@@ -190,25 +174,6 @@
 		"caption": "Reveal",
 		"id": "side-bar-reveal",
 		"command": "side_bar_reveal",
-		"args": {
-			"paths": []
-		}
-	},
-	{
-		"caption": "-",
-		"id": "side-bar-refresh-separator"
-	},
-	{
-		"caption": "Promote",
-		"id": "side-bar-project-item-add",
-		"command": "side_bar_project_item_add",
-		"args": {
-			"paths": []
-		}
-	},
-	{
-		"caption": "Unpromote",
-		"command": "side_bar_project_item_remove_folder",
 		"args": {
 			"paths": []
 		}
