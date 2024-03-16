@@ -261,6 +261,17 @@ class SideBarOpenCommand(sublime_plugin.WindowCommand):
         return CACHED_SELECTION(paths).len() > 0
 
 
+class SideBarFindInProjectCommand(sublime_plugin.WindowCommand):
+    def run(self, paths=[]):
+        Window().run_command("hide_panel")
+        Window().run_command(
+            "show_panel", {"panel": "find_in_files", "where": "<project>"}
+        )
+
+    def is_visible(self, paths=[]):
+        return not s.get("disabled_menuitem_find_in_project", False)
+
+
 class SideBarFindInSelectedCommand(sublime_plugin.WindowCommand):
     def run(self, paths=[]):
         window = Window()
