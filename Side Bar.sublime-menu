@@ -166,11 +166,6 @@
 		"id": "side-bar-delete-separator"
 	},
 	{
-		"caption": "Refresh",
-		"id": "side-bar-refresh",
-		"command": "refresh_folder_list"
-	},
-	{
 		"caption": "Reveal",
 		"id": "side-bar-reveal",
 		"command": "side_bar_reveal",
