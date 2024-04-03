@@ -274,13 +274,13 @@ class SideBarFindInProjectCommand(sublime_plugin.WindowCommand):
 
 class SideBarFindInSelectedCommand(sublime_plugin.WindowCommand):
     def run(self, paths=[]):
-        window = Window()
-        views = []
-        for view in window.views():
-            if view.name() == "Find Results":
-                views.append(view)
-        for view in views:
-            view.close()
+        # window = Window()
+        # views = []
+        # for view in window.views():
+        #     if view.name() == "Find Results":
+        #         views.append(view)
+        # for view in views:
+        #     view.close()
 
         window = Window()
         views = []
